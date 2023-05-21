@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { fetchWather } from './api/fetchWeather'
 import './app.css'
 const App = () => {
-  const [name, setName] = useState('')
+    const [name, setName] = useState('')
   const [weatherData, setWeatherData] = useState('')
   const search = async (e) => {
     if (e.key === 'Enter') {
